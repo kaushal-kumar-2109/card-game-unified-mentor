@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-Game</title>
+<!-- setting the logo  -->
+    <link rel="icon" href="./assets/logo.jpg">
+<!-- connecting the style css file -->
+    <link rel="stylesheet" href="./style/style.css">
+<!-- connecting the resposive style css file  -->
+    <link rel="stylesheet" href="./style/responsive.css">
+</head>
+<body>
+
+<!--   ------------------------------------   nav Started !   ------------------------------------  -->
+    <nav>
+
+        <!-- gmae logo container  -->
+        <div class="logo" style="border-radius: 50%;">
+
+            <!-- assinging the game logo -->
+            <img src="./assets/logo.jpg" alt="player">
+
+        </div>
+
+        <!-- Score borad container to show the rsults -->
+        <div class="scoreboard">
+
+            <!-- show best solving time  -->
+            <div class="besttime">
+                <h1>Best Time</h1>
+                <h2 style="margin-top: 0.5rem;" id="bestTimeScore"><span>00</span>:<span>00</span>:<span>00</span></h2>
+            </div>
+
+            <!-- show best moves in solving the game -->
+            <div class="bestmoves">
+                <h1>Best Score</h1>
+                <h2 style="margin-top: 0.5rem;" id="bestscore">00</h2>
+            </div>
+
+        </div>
+
+    </nav>
+<!--  ------------------------------------  nav End !   ------------------------------------  -->
+
+
+<!--   ------------------------------------  game Board Start !   ------------------------------------   -->
+    <div class="gameboard">
+
+        <!-- game area where game will play -->
+        <div class="board">
+
+            <!-- mini score borad which show real time or current player score  -->
+            <div class="scoreboard">
+
+                <!-- show time taking to solve the game -->
+                <div class="besttime">
+                    <h2 style="margin-top: 0.5rem;" id="totalTime">Time : 00:00:00</h2>
+                </div>
+
+                <!-- show number of turns used by the player -->
+                <div class="bestmoves">
+                    <h2 style="margin-top: 0.5rem;" id="totalMoves"> Moves : 00</h2>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- the message box which start the game and show when the game is over  -->
+        <div class="cards" id="card_container">
+
+            <!-- design result bord container it only show the sesign of card on both side of message container -->
+            <div class="result" id="resultboard">
+                
+                <!-- card sesign for the right side -->
+                <img src="./assets/cardpic/aceofclubs.png" class="c1">
+                <img src="./assets/cardpic/jackofclubs.png" class="c2">
+                <img src="./assets/cardpic/queenofclubs.png" class="c3">
+                <img src="./assets/cardpic/kingofclubs.png" class="c4">
+
+                <!-- card design for the left side -->
+                <img src="./assets/cardpic/aceofhearts.png" class="c5">
+                <img src="./assets/cardpic/jackofhearts.png" class="c6">
+                <img src="./assets/cardpic/queenofhearts.png" class="c7">
+                <img src="./assets/cardpic/kingofhearts.png" class="c8">
+
+                <!-- the game start button or restart the gaem also when gamee over it auto change  -->
+                <div class="board" id="board" onclick="startGame()">
+                    <button>Start Game !</button>
+                </div>
+
+            </div>
+
+            <!-- here card are auto append by using java script when player click the start button  -->
+<!--   ------------------------------------  card creatd by the java-script   ------------------------------------   -->
+            <!-- when the game is over the card auto remove and on restart it auto suffle and append -->
+
+        </div>
+
+    </div>
+  <!-- ------------------------------------ game board End !   ------------------------------------   -->
+
+</body>
+<!-- connecting the script java-script file  -->
+<script src="./script/script.js"></script>
+</html>
