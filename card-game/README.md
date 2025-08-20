@@ -1,8 +1,7 @@
 # Introduction :
 
-    => A web-based memory-testing game that challenges players to find matching pairs of cards.Built using HTML, CSS, and JavaScript to strengthen front-end development skills.
+A web-based memory-testing game that challenges players to find matching pairs of cards.Built using HTML, CSS, and JavaScript to strengthen front-end development skills.
     
-
 
 # Technology Stack :
 
@@ -29,8 +28,10 @@ To install the project in your machine use this comman in you cmd (command line 
 
 # How To Run :
 
-    Step1 => Start your local server.
-    Step2 => Search for the "http://127.0.0.1:5500/card-game/index.html".
+Step1 => Start your local server.
+Step2 => Search for the "http://127.0.0.1:5500/card-game/index.html".
+
+    http://127.0.0.1:5500/card-game/index.html
 
 
 # How To Use :
@@ -41,4 +42,5 @@ To install the project in your machine use this comman in you cmd (command line 
     Step4 => If the player choose the same card he already selected then the game give you alert.
 
     Step5 => The game end when the use matches all the card pair.
+
 
