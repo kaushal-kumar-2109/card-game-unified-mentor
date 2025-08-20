@@ -1,4 +1,4 @@
-# InTroduction :
+# Introduction :
 
     => A web-based memory-testing game that challenges players to find matching pairs of cards.Built using HTML, CSS, and JavaScript to strengthen front-end development skills.
     
@@ -41,3 +41,4 @@ To install the project in your machine use this comman in you cmd (command line 
     Step4 => If the player choose the same card he already selected then the game give you alert.
 
     Step5 => The game end when the use matches all the card pair.
+
