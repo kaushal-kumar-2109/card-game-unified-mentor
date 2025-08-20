@@ -20,6 +20,11 @@
     “Game Over.” message on completion
 
 
+# Installation : 
+
+To install the project in your machine use this comman in you cmd (command line interface).
+
+    git clone https://github.com/kaushal-kumar-2109/card-game-unified-mentor.git
 
 
 # How To Run :
@@ -34,4 +39,5 @@
     Step2 => Choose first card at a time.
     Step3 => If The second card selected is same to first then they stay open otherwise it again hide. 
     Step4 => If the player choose the same card he already selected then the game give you alert.
+
     Step5 => The game end when the use matches all the card pair.
